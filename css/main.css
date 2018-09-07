@@ -1,7 +1,11 @@
+a{
+    color:#17a2b8;
+    text-decoration: none;
+}
+
 .float-right {
     float: right;
 }
-
 
 .float-left {
     float: left;
@@ -26,7 +30,7 @@
 }
 
 .fa-graduation-cap,
-.fa-youtube,
+.fa-video,
 .fa-users,
 .fa-eye,
 .fa-music,
@@ -71,18 +75,38 @@ small {
 .footer {
     background-color: #343a40;
     text-align: center;
-    color: white;
+    color: grey;
     padding-top: 20px;
     margin-top: 20px;
 }
 
 .social {
-   padding-left: 30px;
-    font-size: 25px;
-    text-align: center;
+    padding-left: 10px;
+    font-size: 25px !important;
     color: #0fb9b1
 }
 
+.social a{
+    color:#17a2b8;
+    text-decoration: none
+}
+
+.social a:hover{
+    color:#17a2b8;
+    text-decoration: none
+}
 .tree {
     opacity: 0.7;
+}
+
+.title{
+    font-size: 25px;
+    font-variant-caps: all-petite-caps;
+    color:#3a96b8;
+}
+
+.subTitle{
+    font-size: 20px;
+    font-variant-caps: all-petite-caps;
+    color:#c2743b;
 }

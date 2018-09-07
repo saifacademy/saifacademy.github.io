@@ -1,7 +1,7 @@
 var app2 = new Vue({
-    el: '#AccessDate',
+    el: '#updated',
     data: {
-        message: 'You loaded this page on ' + new Date().toLocaleString()
+        message: 'Updated: September 7th'
     }
 })
 
