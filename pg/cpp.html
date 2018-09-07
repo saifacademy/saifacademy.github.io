@@ -419,6 +419,25 @@
             </div>
             <div class="col-4">
                 <p class="subTitle">8- Pointers</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#point a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: 350 }, "slow");
+                        })
+                    });
+                </script>
+                <div id="point">
+                    <a href="https://www.youtube.com/embed/4UED3iLxfoY">01) Pointers Introduction</a><br>
+                    <a href="https://www.youtube.com/embed/mSfgFhSQUos">02) Pointers with Functions Arguments</a><br>
+                    <a href="https://www.youtube.com/embed/_bEdxOGuPSU">03) Pointers with Arrays</a><br>
+                    <a href="https://www.youtube.com/embed/wttfnaMA5cY">04) Pointers with Structures</a><br>
+                    <a href="https://www.youtube.com/embed/L1huH24P-l0">05) (<span style="color:red">Exercise</span>)
+                        Pointer Arithmetic</a><br>
+                    <a href="https://www.youtube.com/embed/sfgOvcpY3qo">06) (<span style="color:red">Exercise</span>)
+                        Find the Output</a><br>
+                </div>
             </div>
             <div class="col-4">
                 <p class="subTitle">9- Files</p>
