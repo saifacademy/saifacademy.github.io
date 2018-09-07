@@ -397,6 +397,25 @@
         <div class="row">
             <div class="col-4">
                 <p class="subTitle">7- Structures</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#struct a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: 350 }, "slow");
+                        })
+                    });
+                </script>
+                <div id="struct">
+                    <a href="https://www.youtube.com/embed/5Mx9Utynxx0">01) Structures</a><br>
+                    <a href="https://www.youtube.com/embed/8E-9VhVSun8">02) Array of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/SKDq2DroaBg">03) (<span style="color:red">Exercise</span>)
+                        Employee Array of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/awDEIth4z08">04) (<span style="color:red">Exercise</span>)
+                        Structure of Structures</a><br>
+                    <a href="https://www.youtube.com/embed/qfVb_YHo48Y">05) (<span style="color:red">Exercise</span>)
+                        Information of Employees</a><br>
+                </div>
             </div>
             <div class="col-4">
                 <p class="subTitle">8- Pointers</p>
@@ -406,7 +425,8 @@
             </div>
         </div>
 
-    </div><!--container-->
+    </div>
+    <!--container-->
     <footer>
         <div class="footer">
             <table width="100%">
