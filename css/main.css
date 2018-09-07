@@ -1,6 +1,10 @@
 a{
-    color:#17a2b8;
+    color:black;
     text-decoration: none;
+}
+
+a:hover{
+    color:black;
 }
 
 .float-right {
@@ -109,4 +113,13 @@ small {
     font-size: 20px;
     font-variant-caps: all-petite-caps;
     color:#c2743b;
+}
+
+.fa-sort-up{
+    color:#0fb9b1;
+    font-size:35px  !important;
+}
+
+.card-text{
+    text-align: right
 }
