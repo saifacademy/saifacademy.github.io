@@ -89,7 +89,7 @@ var cVids1 = new Vue({
 })
 
 
-var quotes = [ "Learning programming is like learning to play a musical instrument, you will not excel unles you train daily",
+var quotes = [ "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Do your work, don't be stupid",
                "Think twice, code once",
