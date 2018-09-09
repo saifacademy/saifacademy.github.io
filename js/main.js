@@ -1,7 +1,7 @@
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'Updated: September 8th'
+        message: 'Updated: September 9th'
     }
 })
 
@@ -81,7 +81,6 @@ var cppVids = [{
     "url": "http://www.youtube.com/embed/7sjlNN6VxxM",
     "title": "(Exercise) Expressions & Precedence Law"
 }]
-console.log(cppVids)
 
 var cVids1 = new Vue({
     el: '#cppVids',
