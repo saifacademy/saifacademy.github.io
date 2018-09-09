@@ -77,50 +77,65 @@
     </nav>
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-1">Web Design</h1>
+            <h1 class="display-1">Operating Systems</h1>
             <p class="lead blockquote font-italic" id="q">
                 <my-q></my-q>
             </p>
-            <h4><span class="badge badge-dark">HTML5</span>
-                <span class="badge badge-dark">CSS3</span>
-                <h1 class="display-4">10 Videos</h1>
+            <h4><span class="badge badge-dark"></span>
+                <span class="badge badge-dark"></span>
+                <h1 class="display-4">15 Videos</h1>
         </div>
         <hr>
         <div class="vcont">
             <div class="vid">
-                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/dhp9Sdm_jC8?rel=0"
+                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/iClmaXc_wzw?rel=0"
                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-6 col-sm-12">
-                <p class="subTitle">1- HTML5</p>
+                <p class="subTitle">Chapter 1</p>
                 <script>
                     $(document).ready(function () {
-                        $("div#html a").click(function (e) {
+                        $("div#os_ch1 a").click(function (e) {
                             e.preventDefault();
                             $("#myframe").attr("src", $(this).attr("href"));
                             $("html, body").animate({ scrollTop: 350 }, "slow");
                         })
                     });
                 </script>
-                <div id="html">
-                    <a href="https://www.youtube.com/embed/dhp9Sdm_jC8">01) Introduction</a><br>
-                    <a href="https://www.youtube.com/embed/BeRKVgwLKAI">02) Working Environment</a><br>
-                    <a href="https://www.youtube.com/embed/30qXDSFBi0E">03) HTML Structure</a><br>
-                    <a href="https://www.youtube.com/embed/JmszZmdP73Y">04) Text Tags</a><br>
-                    <a href="https://www.youtube.com/embed/V__8C44kXgc">05) Lists Tags</a><br>
-                    <a href="https://www.youtube.com/embed/rIdRXGhqxPo">06) Links Tag</a><br>
-                    <a href="https://www.youtube.com/embed/1b-wxZuf3Nc">07) Image Tag</a><br>
-                    <a href="https://www.youtube.com/embed/2IeiHHTyl9Q">08) Table Tags</a><br>
-                    <a href="https://www.youtube.com/embed/dsS23dFIMs0">09) HTML Forms</a><br>
-                    <a href="https://www.youtube.com/embed/uKBt-v6h9SM">10) HTML Forms Validation</a><br>
+                <div id="os_ch1">
+                    <a href="https://www.youtube.com/embed/iClmaXc_wzw">01) Intro / User View</a><br>
+                    <a href="https://www.youtube.com/embed/zSrX2ue3NZg">02) System View</a><br>
+                    <a href="https://www.youtube.com/embed/8pcWPCwBMUc">03) Mainframe Systems / Batched Systems</a><br>
+                    <a href="https://www.youtube.com/embed/uxaOVRgaK5w">04) Mainframe Systems / Multiprogrammed Systems</a><br>
+                    <a href="https://www.youtube.com/embed/P2CVp4KgSfg">05) Mainframe Systems / Time-Sharing Systems</a><br>
+                    <a href="https://www.youtube.com/embed/XcaIuztyQQs">06) Desktop Computer Systems</a><br>
+                    <a href="https://www.youtube.com/embed/6p1BrSSGEsc">07) Multiprocessor Systems</a><br>
+                    <a href="https://www.youtube.com/embed/AMvVyBDEPvU">08) Distributed Systems</a><br>
+                    <a href="https://www.youtube.com/embed/mJ7LGF5m9GI">09) Clustered Systems</a><br>
+                    <a href="https://www.youtube.com/embed/HmneboIDnCU">10) Real Time Systems</a><br>
+                    <a href="https://www.youtube.com/embed/_Ln2w0Sft-k">11) Handheld Systems</a>
                 </div>
             </div>
             <div class="col-md-6 col-sm-12">
-                <p class="subTitle">2- CSS3</p>
-
+                <p class="subTitle">Chapter 2</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#os_ch2 a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: 350 }, "slow");
+                        })
+                    });
+                </script>
+                <div id="os_ch2">
+                    <a href="https://www.youtube.com/embed/iMlhn67s8_4">01) Computer System Operation</a><br>
+                    <a href="https://www.youtube.com/embed/foYhMpLTdeI">02) I/O Structure</a><br>
+                    <a href="https://www.youtube.com/embed/yHR4pikB5gU">03) DMA Structure</a><br>
+                    <a href="https://www.youtube.com/embed/DFK6nF99ggo">04) Storage Structure</a>
+                </div>
             </div>
         </div>
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
