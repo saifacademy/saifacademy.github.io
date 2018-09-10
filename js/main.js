@@ -87,7 +87,6 @@ var cVids1 = new Vue({
     data: { vids: cppVids }
 })
 
-
 var quotes = [ "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Programming is understanding",
