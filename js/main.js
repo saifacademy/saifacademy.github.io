@@ -93,7 +93,7 @@ var quotes = [ "Learning programming is like learning to play a musical instrume
                "Do your work, don't be stupid",
                "Think twice, code once",
                "Keep calm and start debugging",
-               "Programming is beautifil",
+               "Programming is beautiful",
                "No pain, no gain",
                "Code is poetry"
                ]
