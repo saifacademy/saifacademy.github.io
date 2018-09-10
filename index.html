@@ -13,6 +13,16 @@
 </head>
 
 <body style="padding-top:50px" id="top">
+    <!--facebook SDK-->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=515769531876093&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!--facebook SDK-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <a class="navbar-brand text-white" href="#">
             <img src="img/sa.png" width=50px; alt="">
@@ -128,7 +138,7 @@
                     <br>
                     <p>Views
                         <br>
-                        <span id="stdCount">719K</span>
+                        <span id="stdCount">720K</span>
                     </p>
 
                 </div>
@@ -155,6 +165,9 @@
         </div>
         <hr>
     </div>
+    <br>
+    <div class="fb-like" data-href="https://www.facebook.com/saifacademy/" data-width="100%" data-layout="standard"
+        data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
     <footer>
         <div class="footer">
             <table width="100%">
