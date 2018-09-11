@@ -20,7 +20,7 @@ a:hover{
 }
 
 .date {
-    color: #17a2b8;
+    color: #0fb9b1;
     font-size: 16px;
 }
 
@@ -42,6 +42,8 @@ a:hover{
 .fa-futbol,
 .fa-pencil-alt,
 .fa-utensils,
+.fa-code,
+.fa-gamepad,
 .fa-chevron-up {
     font-size: 50px;
     color: #0fb9b1;
