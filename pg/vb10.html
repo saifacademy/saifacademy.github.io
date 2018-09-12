@@ -9,17 +9,29 @@
     <link rel="stylesheet" href="../css/vid.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <link rel="icon" href="img/tree.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="icon" href="../img/tree.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="../img/tree.ico" type="image/x-icon" />
     <title>Saif Academy</title>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 </head>
 
-<body style="padding-top:70px" id="top">
+<body style="padding-top:50px" id="top">
+    <!-- facebook SDK-->
+    <div id="fb-root"></div>
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=515769531876093&autoLogAppEvents=1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- facebook SDK-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
-        <a class="navbar-brand text-white" href="index.html">
-            <img src="img/sa.png" width=50px; alt="">
+        <a class="navbar-brand text-white" href="../index.html">
+            <img src="../img/sa.png" width=50px; alt="">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,25 +47,25 @@
                         Lectures
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="pg/cpp.html">Programming in C++</a>
-                        <a class="dropdown-item" href="pg/oracle10g.html">Oracle 10g</a>
-                        <a class="dropdown-item" href="pg/htmlcss.html">HTML5 & CSS3</a>
-                        <a class="dropdown-item" href="pg/prolog.html">Prolog</a>
-                        <a class="dropdown-item" href="pg/gapps.html">Google Apps</a>
-                        <a class="dropdown-item" href="pg/vb10.html">Visual Basic.NET</a>
+                        <a class="dropdown-item" href="cpp.html">Programming in C++</a>
+                        <a class="dropdown-item" href="oracle10g.html">Oracle 10g</a>
+                        <a class="dropdown-item" href="htmlcss.html">HTML5 & CSS3</a>
+                        <a class="dropdown-item" href="prolog.html">Prolog</a>
+                        <a class="dropdown-item" href="gapps.html">Google Apps</a>
+                        <a class="dropdown-item" href="vb10.html">Visual Basic.NET</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="pg/math.html">Mathematics</a>
-                        <a class="dropdown-item" href="pg/os.html">Operating Systems</a>
+                        <a class="dropdown-item" href="math.html">Mathematics</a>
+                        <a class="dropdown-item" href="os.html">Operating Systems</a>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="programs.html">Programs</a>
+                    <a class="nav-link text-white" href="../programs.html">Programs</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Books</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Presentations</a>
+                    <a class="nav-link text-white" href="../presentations.html">Presentations</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="#">Q/A</a>
@@ -78,30 +90,55 @@
         </div>
     </nav>
     <div class="container">
-        <br>
-        <div class="row">
-            <div class="col-md-12 col-sm-12">
-                <h3 class="text-right">محاضرة قصيرة عن البيانات الكبيرة</h3>
-                <p class="text-right">ألقيت في مركز إبن سينا للتعليم الإلكتروني في الجامعة المستنصرية<br>
-                    <span class="text-right">بتاريخ 22-12-2016</span></p>
-                <hr>
-                <div class="vcont">
-                    <div class="vid">
-                        <iframe id="myframe" width="800" height="450" src="https://www.youtube.com/embed/091uRC3hFTU"
-                            frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
+        <div class="jumbotron jumbotron-fluid">
+            <h1 class="display-1">Visual Basic.NET</h1>
+            <p class="lead blockquote font-italic" id="q">
+                <my-q></my-q>
+            </p>
+            <h4><span class="badge badge-dark"></span>
+                <span class="badge badge-dark"></span>
+                <h1 class="display-4">5 Videos</h1>
+        </div>
+        <hr>
+        <div class="vcont">
+            <div class="vid">
+                <iframe id="myframe" width="560" height="315" src="https://www.youtube.com/embed/rNZ8dKpN_rw?rel=0"
+                    frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
         </div>
+        <hr>
         <div class="row">
-            <div class="col-md-12 col-sm-12">
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">1- Basics</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#pr_basics a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({ scrollTop: 350 }, "slow");
+                        })
+                    });
+                </script>
+                <div id="pr_basics">
+                    <a href="https://www.youtube.com/embed/rNZ8dKpN_rw">01) IDE Overview</a><br>
+                    <a href="https://www.youtube.com/embed/_t0QoOPTKnA">02) Hello World</a><br>
+                    <a href="https://www.youtube.com/embed/B8iwyPYrsC8">03) Lucky 7 (Design)</a><br>
+                    <a href="https://www.youtube.com/embed/IWnbVZgdEag">04) Lucky 7 (Code)</a><br>
+                    <a href="https://www.youtube.com/embed/nDwCJdcQt5M">05) Lucky 7 (Note)</a><br>
+
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle"></p>
 
             </div>
         </div>
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
         <br>
         <hr>
+        <div class="fb-comments" data-href="https://saifacademy.github.io/pg/vb10.html" data-width="100%" data-numposts="5"></div>
     </div>
+    <!--container-->
     <footer>
         <div class="footer">
             <table width="100%">
@@ -117,7 +154,7 @@
                         </div>
                     </td>
                     <td width="33%">
-                        <img src="img/tree.png" class="mb-3 tree" alt="Tree">
+                        <img src="../img/tree.png" class="mb-3 tree" alt="Tree">
                         <br>Made with
                         <i class="fas fa-heart"></i> By Saif Bashar &copy; 2018
                     </td>
@@ -129,15 +166,13 @@
             <br>
         </div>
     </footer>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script src="js/vue.js"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/vue.js"></script>
+    <script src="../js/main.js"></script>
 </body>
 
 </html>
