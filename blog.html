@@ -2,15 +2,27 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/main.css">
+    <meta http-equiv="author" content="Saif Bashar">
+    <meta http-equiv="pragma" content="no-cache">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <link rel="icon" href="img/tree.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="img/tree.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="css/main.css">
     <title>Saif Academy</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42710021-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-42710021-1');
+    </script>
 </head>
 
 <body style="padding-top:70px" id="top">
@@ -18,92 +30,102 @@
         <a class="navbar-brand text-white" href="index.html">
             <img src="img/sa.png" width=50px; alt="">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-            aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
 
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Lectures
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pg/cpp.html">Programming in C++</a>
+                        <a class="dropdown-item" href="pg/oracle10g.html">Oracle 10g</a>
+                        <a class="dropdown-item" href="pg/htmlcss.html">HTML5 & CSS3</a>
+                        <a class="dropdown-item" href="pg/prolog.html">Prolog</a>
+                        <a class="dropdown-item" href="pg/gapps.html">Google Apps</a>
+                        <a class="dropdown-item" href="pg/vb10.html">Visual Basic.NET</a>
+                        <a class="dropdown-item" href="pg/vb6.html">Visual Basic 6</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pg/math.html">Mathematics</a>
+                        <a class="dropdown-item" href="pg/os.html">Operating Systems</a>
+                    </div>
+                </li>
                 <li class="nav-item">
-                    <a class="nav-link text-white" href="lectures.html">Lectures</a>
+                    <a class="nav-link text-white" href="programs.html">Programs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="presentations.html">Presentations</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Q/A</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Designs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Facts</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="blog.html">Blog
-                        <span class="badge badge-info"> 20</span>
+                        <span class="badge badge-info"> 5</span>
                     </a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link text-white dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
-                        aria-expanded="false">
-                        Saif B.
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cv.html">About Me
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="cv.html">Profile</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="login.html">Login</a>
-                    </div>
                 </li>
             </ul>
-
         </div>
     </nav>
     <div class="container">
-        <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-1">Tech. Articles</h1>
-            <blockquote class="blockquote font-italic">
-                " Learning programming is like learning to play a musical instrument, you will not excel unles you train daily "
-            </blockquote>
-
-        </div>
         <div class="row mt-5">
-            <div class="col-12 col-md-12 jusify-content">
-
-
-                <div id="posts">
-                    <ul>
-                        <li v-for="post in posts">
-                            <small>{{post.publishedAt}}</small>
-                            <h5>{{post.title}}</h5>
-                            <p>{{post.description}}</p>
-
-                        </li>
-                    </ul>
-
-                </div>
+            <div class="col-12">
+                <strong>
+                    <a href="pg/blog/2014-02-24.html"><p>طرق التعليم في تغير مستمر فماذا علينا أن نفعل؟</p></a>
+                </strong>
             </div>
+            <hr>
         </div>
+        <hr>
+        <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
+        <br>
     </div>
     <footer>
-            <div class="footer">
-                <div class="row">
-                    <div class="col-12">
+        <div class="footer">
+            <table width="100%">
+                <tr>
+                    <td width="33%">
                         <div class="social float-left">
-                            <i class="fab fa-facebook"></i>
-                            <i class="fab fa-google-plus-g"></i>
-                            <i class="fab fa-twitter"></i>
-                            <i class="fab fa-github"></i>
-                            <i class="fab fa-linkedin"></i>
+                            <a href="https://www.facebook.com/saifacademy/" target="_blank"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.youtube.com/saifacademy/" target="_blank"><i class="fab fa-youtube"></i></a>
+                            <a href="https://twitter.com/saifacademy/" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://github.com/saif-bashar/" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://instagram.com/saifacademy/" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/saif-bashar/" target="_blank"><i class="fab fa-linkedin"></i></a>
                         </div>
-                    </div>
-                    <div class="col-12">
-    
-                        <img src="https://www.saifacademy.com/uploads/2/6/3/0/26303763/4583521.png" class="mb-3 tree" alt="">
-                        <p> Made with
-                            <i class="fas fa-heart"></i> &amp;
-                            <img src="img/pepsi.png" /> By Saif Bashar &copy; 2018</p>
-                    </div>
-                    <div class="col-12">
-                        <a href="#top">
-                            <i class="fas fa-chevron-up"></i>
-                        </a>
-                        <div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+                    </td>
+                    <td width="33%">
+                        <img src="img/tree.png" class="mb-3 tree" alt="Tree">
+                        <br>Made with
+                        <i class="fas fa-heart"></i> By Saif Bashar &copy; 2018
+                    </td>
+                    <td width="33%">
+                        <div id="updated">{{message}}</div>
+                    </td>
+                </tr>
+            </table>
+            <br>
+        </div>
+    </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -111,11 +133,8 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    
     <script src="js/vue.js"></script>
-    <script src="js/blog.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
