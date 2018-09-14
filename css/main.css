@@ -6,17 +6,16 @@
 
   .blogTitle {
       font-family: 'DroidArabicKufiRegular', 'Helvetica';
-      font-size: 20px
+      font-size: 18px
   }
 
   .fa-angle-double-left{
     color: #0fb9b1;
-    font-size:24px !important;
+    font-size:18px !important;
   }
 
   .blogDate {
-      font-weight: bold;
-      font-size: 20px;
+      font-size: 16px;
       color: #0fb9b1;
   }
 
