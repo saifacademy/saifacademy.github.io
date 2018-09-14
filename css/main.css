@@ -1,22 +1,26 @@
-  .art p {
-      font-family: 'DroidArabicKufiRegular';
-      font-size: 18px;
-      direction: rtl;
+  .art p,li {
+      font-family: 'DroidArabicKufiRegular', 'Helvetica';
+      font-size: 16px;
       text-align: justify;
   }
 
   .blogTitle {
-      font-family: 'DroidArabicKufiRegular';
-      font-size: 28px
+      font-family: 'DroidArabicKufiRegular', 'Helvetica';
+      font-size: 20px
+  }
+
+  .fa-angle-double-left{
+    color: #0fb9b1;
+    font-size:24px !important;
   }
 
   .blogDate {
       font-weight: bold;
-      font-size: 24px;
+      font-size: 20px;
       color: #0fb9b1;
   }
 
-  a {
+  a,li,blockquote {
       color: grey;
       text-decoration: none;
   }
@@ -136,8 +140,7 @@
       color: #c2743b;
   }
 
-  .fa-sort-up,
-  .fa-angle-double-left {
+  .fa-sort-up{
       color: #0fb9b1;
       font-size: 35px !important;
   }
