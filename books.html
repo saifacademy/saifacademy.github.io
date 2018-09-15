@@ -30,6 +30,16 @@
 </head>
 
 <body style="padding-top:70px" id="top">
+     <!-- facebook SDK-->
+     <div id="fb-root"></div>
+     <script>(function (d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+             js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=515769531876093&autoLogAppEvents=1';
+             fjs.parentNode.insertBefore(js, fjs);
+         }(document, 'script', 'facebook-jssdk'));</script>
+     <!-- facebook SDK-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <a class="navbar-brand text-white" href="index.html">
             <img src="img/sa.png" width=50px; alt="">
@@ -114,29 +124,29 @@
                         <br>
                         <p class="text-right"> هذه الكتب تحدث ويتم التعديل عليها بصورة مستمرة أحرص دائماً على قراءة
                             تاريخ التحديث للحصول على أحدث نسخة</p>
-                            <hr>
+                        <hr>
                         <div class="row">
                             <div class="col-md-4 col-12">
                                 <img src="img/book.jpg" /><span class="date">Lecture's Notes on Programming in C++</span>
                                 <br><br>
                             </div>
                             <div class="col-md-4 col-12">
-                                <span class="badge badge-danger">Updated on 2017-11-04</span>
+                                <span class="badge badge-danger">Comming soon</span>
                                 <br><br>
                             </div>
                             <div class="col-md-4 col-12">
                                 <p>كتاب تعلم البرمجة بلغة السي++ بجزئين البرمجة الإجرائية والبرمجة الشيئية</p>
                                 <br><br>
                             </div>
-                        </div>
-                        <hr>
-                        <div class="row">
+                            <hr>
                             <div class="col-md-4 col-12">
-                                <img src="img/book.jpg" /><a href="#" target="_blank"><span class="date">Lecture's Notes on Mathematics</span></a>
+                                <img src="img/book.jpg" /><a href="https://drive.google.com/open?id=0BxMiSIgnanLoa09nVjFQbmdUWTg"
+                                    target="_blank"><span class="date">Lecture's
+                                        Notes on Mathematics</span></a>
                                 <br><br>
                             </div>
                             <div class="col-md-4 col-12">
-                                <span class="badge badge-danger">Updated on 2017-11-04</span>
+                                <span class="badge badge-danger">Updated on 2016-11-09</span>
                                 <br><br>
                             </div>
                             <div class="col-md-4 col-12">
@@ -146,7 +156,55 @@
                             </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="slides-tab">Soon</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="slides-tab">
+                        <br>
+                        <p class="text-right"> مجموعة من العروض التقديمية والتعليمات</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-md-4 col-12">
+                                <img src="img/pdf.png" /><a href="https://drive.google.com/file/d/0B05C2XcRlQUDUnVDMFoteW9qalE/view"
+                                    target="_blank"><span class="date">Turbo Prolog</span></a>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <span class="badge badge-danger">Updated on 2012-12-08</span>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p>عرض تقديمي لأهم المواضيع في لغة الذكاء الإصطناعي البرولوك</p>
+                                <br><br>
+                            </div>
+                            <hr>
+                            <div class="col-md-4 col-12">
+                                <img src="img/pdf.png" /><a href="https://drive.google.com/file/d/0B05C2XcRlQUDSXFMVUJ3cU00MzQ/view"
+                                    target="_blank"><span class="date">Oracle 10g Setup on Windows XP</span></a>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <span class="badge badge-danger">Updated on 2012-10-09</span>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p>طريقة تنصيب الأوراكل (قاعدة البيانات ومطور الفورم) على الوندوز أكس بي</p>
+                                <br><br>
+                            </div>
+                            <hr>
+                            <div class="col-md-4 col-12">
+                                <img src="img/pdf.png" /><a href="https://drive.google.com/file/d/0B05C2XcRlQUDZDJtajBBRzZzYzg/view"
+                                    target="_blank"><span class="date">Removing
+                                        Oracle 10g from Windows 7</span></a>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <span class="badge badge-danger">Updated on 2012-10-09</span>
+                                <br><br>
+                            </div>
+                            <div class="col-md-4 col-12">
+                                <p>طريقة حذف الأوراكل بصورة صحيحة من الوندوز 7</p>
+                                <br><br>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -154,6 +212,7 @@
         <hr>
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
         <br>
+        <div class="fb-comments" data-href="https://saifacademy.github.io/books.html" data-width="100%" data-numposts="5"></div>
     </div>
     <footer>
         <div class="footer">
