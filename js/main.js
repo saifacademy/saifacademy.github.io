@@ -5,6 +5,13 @@ var app2 = new Vue({
     }
 })
 
+var app3 = new Vue({
+    el: '#blogCount',
+    data: {
+        blogs: '6'
+    }
+})
+
 var quotes = [ "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Programming is understanding",
