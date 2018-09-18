@@ -1,14 +1,14 @@
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'Updated: September 18th'
+        message: 'Updated: September 19th'
     }
 })
 
 var app3 = new Vue({
     el: '#blogCount',
     data: {
-        blogs: '6'
+        blogs: '7'
     }
 })
 
