@@ -117,7 +117,7 @@
             </p>
             <h4><span class="badge badge-dark">HTML5</span>
                 <span class="badge badge-dark">CSS3</span>
-                <h1 class="display-4">12 Videos</h1>
+                <h1 class="display-4">13 Videos</h1>
         </div>
         <hr>
         <div class="vcont">
@@ -158,7 +158,20 @@
             </div>
             <div class="col-md-6 col-sm-12">
                 <p class="subTitle">2- CSS3</p>
-
+                <script>
+                    $(document).ready(function () {
+                        $("div#css a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: 395
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="css">
+                    <a href="https://www.youtube.com/embed/DZj7P5IPBEQ">01) CSS Intro</a><br>
+                </div>
             </div>
         </div>
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
