@@ -30,16 +30,6 @@
 </head>
 
 <body style="padding-top:50px" id="top">
-    <!-- facebook SDK-->
-    <div id="fb-root"></div>
-    <script>(function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=515769531876093&autoLogAppEvents=1';
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
-    <!-- facebook SDK-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
         <a class="navbar-brand text-white" href="../index.html">
             <img src="../img/sa.png" width=50px; alt="">
@@ -97,7 +87,9 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-white" href="../blog.html">Blog
-                        <span class="badge badge-info"> <div id="blogCount">{{blogs}}</div></span>
+                        <span class="badge badge-info">
+                            <div id="blogCount">{{blogs}}</div>
+                        </span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -110,13 +102,13 @@
     </nav>
     <div class="container">
         <div class="jumbotron jumbotron-fluid">
-            <h1 class="display-3">C/C++</h1>
+            <h1 class="display-2">C/C++</h1>
             <p class="lead blockquote font-italic" id="q">
                 <my-q></my-q>
             </p>
-            <h4><span class="badge badge-dark">Structured Programming</span>
-                <span class="badge badge-dark">Object Oriented Programming</span>
-                <span class="badge badge-dark">Data Structures</span></h4>
+            <h3><span class="badge badge-pill badge-dark">Structured Programming</span>
+                <span class="badge badge-pill badge-dark">Object Oriented Programming</span>
+                <span class="badge badge-pill badge-dark">Data Structures</span></h3>
             <h1 class="display-4">165 Videos</h1>
         </div>
         <hr>
@@ -578,7 +570,6 @@
         <div class="float-right"><a href="#top"><i class="fas fa-sort-up"></i></a></div>
         <br>
         <hr>
-        <div class="fb-comments" data-href="https://saifacademy.github.io/pg/cpp.html" data-width="100%" data-numposts="5"></div>
     </div>
     <!--container-->
     <footer>
@@ -606,7 +597,6 @@
                     </td>
                 </tr>
             </table>
-            <br>
         </div>
     </footer>
 

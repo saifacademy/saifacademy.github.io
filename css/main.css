@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Cairo');
 
-p{
-    font-family: 'Cairo', 'Helvetica';
+p,a,h1,h2,h3,h4,h5,h6,span,button{
+    font-family: 'Cairo', 'Helvetica' !important;
+    font-weight: normal !important;
 }
 .art p,li {
       font-family: 'Cairo', 'Helvetica';
@@ -133,13 +134,13 @@ p{
   }
 
   .title {
-      font-size: 25px;
+      font-size: 30px;
       font-variant-caps: all-petite-caps;
       color: #0fb9b1;
   }
 
   .subTitle {
-      font-size: 20px;
+      font-size: 25px;
       font-variant-caps: all-petite-caps;
       color: #c2743b;
   }
