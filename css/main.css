@@ -20,11 +20,6 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-size:18px !important;
   }
 
-  .blogDate {
-      font-size: 16px;
-      color: #0fb9b1;
-  }
-
   a,li,blockquote {
       color: grey;
       text-decoration: none;
