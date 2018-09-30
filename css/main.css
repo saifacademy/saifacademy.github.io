@@ -20,7 +20,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-size:18px !important;
   }
 
-  a,li,blockquote {
+  a,li,blockquote,h5 {
       color: grey;
       text-decoration: none;
   }
