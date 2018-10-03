@@ -1,7 +1,7 @@
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'Updated: October 2nd'
+        message: 'Updated: October 3rd'
     }
 })
 
@@ -12,7 +12,8 @@ var app3 = new Vue({
     }
 })
 
-var quotes = [ "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
+var quotes = [ "A programmer has two weapons: logical thinking and search",
+               "Learning programming is like learning to play a musical instrument, you will not excel unless you train daily",
                "Work Hard",
                "Programming is understanding",
                "Do your work, don't be stupid",
