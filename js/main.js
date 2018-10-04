@@ -1,7 +1,7 @@
 var app2 = new Vue({
     el: '#updated',
     data: {
-        message: 'Updated: October 3rd'
+        message: 'Updated: October 4th'
     }
 })
 
