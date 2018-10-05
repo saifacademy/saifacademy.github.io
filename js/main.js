@@ -6,6 +6,13 @@ var app2 = new Vue({
 })
 
 var app3 = new Vue({
+    el: '#year',
+    data: {
+        year: '2018'
+    }
+})
+
+var app4 = new Vue({
     el: '#blogCount',
     data: {
         blogs: '7'
