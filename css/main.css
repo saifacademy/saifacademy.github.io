@@ -4,6 +4,11 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     font-family: 'Cairo', 'Helvetica' !important;
     font-weight: normal !important;
 }
+
+.dropdown-item:active {
+    background-color: #0fb9b1
+}
+
 .art p,li {
       font-family: 'Cairo', 'Helvetica';
       font-size: 16px;
