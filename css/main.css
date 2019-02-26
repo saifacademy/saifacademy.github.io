@@ -6,7 +6,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 }
 
 .dropdown-item:active {
-    background-color: #0fb9b1
+    background-color: #1abc9c
 }
 
 .art p,li {
@@ -21,7 +21,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .fa-angle-double-left{
-    color: #0fb9b1;
+    color: #1abc9c;
     font-size:18px !important;
   }
 
@@ -47,13 +47,13 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .date {
-      color: #0fb9b1;
+      color: #1abc9c;
       font-size: 16px;
   }
 
   .card-text.big {
       font-size: 28px;
-      color: #17a2b8;
+      color: #1abc9c;
   }
 
   .fa-heart {
@@ -73,7 +73,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   .fa-gamepad,
   .fa-chevron-up {
       font-size: 40px;
-      color: #0fb9b1;
+      color: #1abc9c;
   }
 
   p,
@@ -106,7 +106,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .footer {
-      background-color: #343a40;
+      background-color: #34495e;
       text-align: center;
       color: grey;
       padding-top: 20px;
@@ -115,16 +115,16 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 
   .social {
       font-size: 25px !important;
-      color: #0fb9b1
+      color: #1abc9c;
   }
 
   .social a {
-      color: #0fb9b1;
+      color: #1abc9c;
       text-decoration: none
   }
 
   .social a:hover {
-      color: #0fb9b1;
+      color: #1abc9c;
       text-decoration: none
   }
 
@@ -135,17 +135,17 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   .title {
       font-size: 30px;
       font-variant-caps: all-petite-caps;
-      color: #0fb9b1;
+      color: #1abc9c;
   }
 
   .subTitle {
       font-size: 25px;
       font-variant-caps: all-petite-caps;
-      color: #c2743b;
+      color: #9b59b6;
   }
 
   .fa-sort-up{
-      color: #0fb9b1;
+      color: #1abc9c;
       font-size: 35px !important;
   }
 
@@ -154,5 +154,5 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .size {
-      color: #0fb9b1;
+      color: #1abc9c;
   }
