@@ -6,7 +6,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 }
 
 .dropdown-item:active {
-    background-color: #1abc9c
+    background-color: #00bfc0;
 }
 
 .art p,li {
@@ -21,7 +21,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .fa-angle-double-left{
-    color: #1abc9c;
+    color: #00bfc0;
     font-size:18px !important;
   }
 
@@ -47,13 +47,13 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .date {
-      color: #1abc9c;
+      color: #00bfc0;
       font-size: 16px;
   }
 
   .card-text.big {
       font-size: 28px;
-      color: #1abc9c;
+      color: #00bfc0;
   }
 
   .fa-heart {
@@ -73,7 +73,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   .fa-gamepad,
   .fa-chevron-up {
       font-size: 40px;
-      color: #1abc9c;
+      color: #00bfc0;
   }
 
   p,
@@ -115,16 +115,16 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 
   .social {
       font-size: 25px !important;
-      color: #1abc9c;
+      color: #00bfc0;
   }
 
   .social a {
-      color: #1abc9c;
+      color: #00bfc0;
       text-decoration: none
   }
 
   .social a:hover {
-      color: #1abc9c;
+      color: #00bfc0;
       text-decoration: none
   }
 
@@ -135,7 +135,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   .title {
       font-size: 30px;
       font-variant-caps: all-petite-caps;
-      color: #1abc9c;
+      color: #00bfc0;
   }
 
   .subTitle {
@@ -145,7 +145,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .fa-sort-up{
-      color: #1abc9c;
+      color: #00bfc0;
       font-size: 35px !important;
   }
 
@@ -154,5 +154,5 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
   }
 
   .size {
-      color: #1abc9c;
+      color: #00bfc0;
   }
