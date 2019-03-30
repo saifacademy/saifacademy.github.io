@@ -24,6 +24,12 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     border-right: 3px solid #ed3338;
 }
 
+.jumbotronWEB{
+    border-bottom: 3px solid #f16528;
+    border-left: 3px solid #f16528;
+    border-right: 3px solid #f16528;
+}
+
 .dropdown-item:active {
     background-color: #00bfc0;
 }
