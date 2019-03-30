@@ -111,6 +111,7 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
       color: grey;
       padding-top: 20px;
       margin-top: 20px;
+      border-bottom: 5px solid #00bfc0;
   }
 
   .social {
