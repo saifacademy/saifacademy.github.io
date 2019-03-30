@@ -6,10 +6,10 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
 }
 
 
-.mainjumbotron{
-    border-bottom: 5px solid #00bfc0;
-    border-left: 5px solid #00bfc0;
-    border-right: 5px solid #00bfc0;
+.jumbotron{
+    border-bottom: 3px solid #00bfc0;
+    border-left: 3px solid #00bfc0;
+    border-right: 3px solid #00bfc0;
 }
 
 .dropdown-item:active {
