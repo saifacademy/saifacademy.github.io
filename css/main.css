@@ -18,6 +18,12 @@ p,a,h1,h2,h3,h4,h5,h6,span,button{
     border-right: 3px solid #669ad3;
 }
 
+.jumbotronORA{
+    border-bottom: 3px solid #ed3338;
+    border-left: 3px solid #ed3338;
+    border-right: 3px solid #ed3338;
+}
+
 .dropdown-item:active {
     background-color: #00bfc0;
 }
