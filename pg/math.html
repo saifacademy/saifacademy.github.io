@@ -107,8 +107,9 @@
             <h4><span class="badge badge-pill badge-dark">Matrices</span>
                 <span class="badge badge-pill badge-dark">Functions</span>
                 <span class="badge badge-pill badge-dark">Equations</span>
-                <span class="badge badge-pill badge-dark">Trigonometry</span></h4>
-            <h3 class="display-4">37 Videos</h3>
+                <span class="badge badge-pill badge-dark">Trigonometry</span>
+                <span class="badge badge-pill badge-dark">Integration</span></h4>
+            <h3 class="display-4">39 Videos</h3>
         </div>
         <hr>
         <div class="vcont">
@@ -255,6 +256,45 @@
                     <a href="https://www.youtube.com/embed/6ymO6HeZktY">17) Inverse of (2x2) Matrix (Fast Method)</a><br>
                     <a href="https://www.youtube.com/embed/Z6gt3afabSM">18) Inverse of (3x3) Matrix</a><br>
                     <a href="https://www.youtube.com/embed/pNOvDKEi79s">19) Inverse Method (three linear equations)</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">4- Equations</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#equations a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: 420
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="equations">
+                    <a href="https://www.youtube.com/embed/lqWGrjZfrH4">01) Equation of a Line</a><br>
+                    <a href="https://www.youtube.com/embed/bsG6mss81_M">02) Solving Linear Equations - Example 1</a><br>
+                    <a href="https://www.youtube.com/embed/cx2muV9Y_98">03) Angle of Inclination</a><br>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <p class="subTitle">5- Matrices</p>
+                <script>
+                    $(document).ready(function () {
+                        $("div#mat_vids a").click(function (e) {
+                            e.preventDefault();
+                            $("#myframe").attr("src", $(this).attr("href"));
+                            $("html, body").animate({
+                                scrollTop: 420
+                            }, "slow");
+                        })
+                    });
+                </script>
+                <div id="mat_vids">
+                    <a href="https://www.youtube.com/embed/mlOCMBe-iio">01) Matrices - Important Terminologies</a><br>
+                    <a href="https://www.youtube.com/embed/9cVgsVowEo4">02) Rank Of A Matrix</a><br>
                 </div>
             </div>
         </div>
