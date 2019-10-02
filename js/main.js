@@ -1,4 +1,4 @@
-var scrollVal = 200;
+let scrollVal = 200;
 
 var app2 = new Vue({
     el: '#updated',
