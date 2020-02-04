@@ -49,6 +49,4 @@ var temp = {
     }
 })
 
-$(document).ready(function(){
-    $('go').fadeIn();
-});
+
