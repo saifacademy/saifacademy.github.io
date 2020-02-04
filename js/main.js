@@ -48,3 +48,7 @@ var temp = {
         'my-q': temp
     }
 })
+
+$(document).ready(function(){
+    $('go').hide();
+});
